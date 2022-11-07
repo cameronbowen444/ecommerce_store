@@ -1,6 +1,13 @@
+
 # Created by https://www.toptal.com/developers/gitignore/api/django
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
-
+# Things I added 
+.vscode
+env/
+venv/
+__pycache__/
+.vscode/
+db.sqlite3
 ### Django ###
 *.log
 *.pot
