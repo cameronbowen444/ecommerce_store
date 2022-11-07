@@ -1,0 +1,90 @@
+Products to Add and Update 
+    ('B', 'Bars'),
+    ('P', 'Weights And Plates'),
+    ('E', 'Equipment'),
+    ('C', 'Conditioning'),
+    ('S', 'Storage'),
+    ('G', 'Gear And Accessories'),
+    ('SU', 'Suppliments')
+
+
+BARS: 
+Steel Olympic straight bar 7ft
+Olympic Trap Bar
+Olymipic Curl Bar
+Olymipc Multi-Grip Bar 
+Standard Steel 5ft bar 
+Olympic Dumbbells Adjustable bars
+Standard Dumbbell Adjustable bars
+Standard Curl Bar 
+
+
+WEIGHTS AND PLATES: 
+Olympic Plates Full Set 45s, 35s, 25s, 15s, 10s, 5s (Standard, Bumber)
+Olympic Plates Power Set 45s, 35s, 25s (Standard, Bumber)
+Olympic Plates Single Set 45s pair(Standard, Bumber)
+Olympic Plates Single Set 35s pair (Standard, Bumber)
+Olympic Plates Single Set 25s pair (Standard, Bumber)
+Olympic Plates Single Set 15s pair (Standard, Bumber)
+Olympic Plates Single Set 10s pair (Standard, Bumber)
+Full Set Dumbbells 5 - 100
+Full Set Dumbbells 5 - 70
+Full Set Dumbbells 5 - 50
+
+EQUIPMENT: 
+Standard Bench 
+Adjustable Bench 
+Power Rack
+Squat Stand / Rack
+Wall Mount Rack 
+Half Rack 
+Plate Tree
+Cable Tower 
+Cross Cabels
+
+
+CONDITIONING:
+Bike
+Rower
+Jump Rope 
+SandBags
+Medicnine Ball
+Olyptical 
+Full Set KettleBalls 
+Single KettleBalls
+Tire
+
+
+STORAGE: 
+Full Storage Rack
+Plate Storage 
+Weights Storage 
+(Get a Few options)
+
+
+GEAR AND ACCESSORIES:
+Power Plateform mat
+Crash Cushion (bar mat)
+Gym Bag 
+Lifting Belt (3 options)
+wrist Wraps 
+Knee Sleeves 
+Knee Wraps
+Barbell Neck Support 
+T Bar Extention
+Grip Strength
+
+
+SUPPLIEMENTS: 
+Creatine 
+Amino Acids 
+Whey Protein (different options)
+Pre-Workout 
+Post-Workout 
+HMB 
+Animal Pak
+Muscle Milk
+
+Final Steps In Completion: 
+- Customize login, signup, logout, etc.. if any more than that
+
