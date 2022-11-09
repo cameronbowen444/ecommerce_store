@@ -179,7 +179,7 @@
                 {% if not item.image %}
                 <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg" class="card-img-top" alt="image">
                 {% else %}
-                <img class="card-img-top" src="{{ item.image.url }}" alt="image">
+                <img class="card-img-top" src="{% static 'item.image.url' %}" alt="image">
                 {% endif %}
                 <a href="{{ item.get_absolute_url }}">
                   <div class="mask rgba-white-slight"></div>
