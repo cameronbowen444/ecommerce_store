@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-
+{% load static %}
   <!--Carousel Wrapper-->
   <div id="carousel-example-1z" class="carousel slide carousel-fade pt-4" data-ride="carousel">
 
@@ -17,8 +17,8 @@
 
       <!--First slide-->
       <div class="carousel-item active">
-        <div class="view" style="background: lightskyblue; background-repeat: no-repeat; background-size: cover;">
-
+        <div class="view">
+          <img class="img1" src="{% static '/media/back_c.jpg' %}" />
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
 
@@ -51,8 +51,8 @@
 
       <!--Second slide-->
       <div class="carousel-item">
-        <div class="view" style="background: lightcoral; background-repeat: no-repeat; background-size: cover;">
-
+        <div class="view" >
+          <img class="img1" src="{% static '/media/back_b.jpg' %}" />
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
 
@@ -86,7 +86,7 @@
       <!--Third slide-->
       <div class="carousel-item">
         <div class="view" style="background: lightgreen; background-repeat: no-repeat; background-size: cover;">
-
+          <img class="img1" src="{% static '/media/back_a.jpg' %}" />
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
 
@@ -176,7 +176,8 @@
           <div class="col-lg-3 col-md-6 mb-4">
             <div class="card">
               <div class="view overlay">
-                <div style="width: 200px; height: 200px; background: lightskyblue;">
+                <div>
+                  <img src="{% static '/media/' %}{{item.image}}" class="card-img-top img2" alt="...">
                 </div>
                 <a href="{{ item.get_absolute_url }}">
                   <div class="mask rgba-white-slight"></div>

@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+{% load static %}
   <!--Main layout-->
   <main class="mt-5 pt-4">
     <div class="container dark-grey-text mt-5">
@@ -10,7 +11,8 @@
         <!--Grid column-->
         <div class="col-md-6 mb-4">
 
-          <div style="width: 350px; height: 350px; background: lightskyblue;">
+          <div>
+            <img src="{% static '/media/' %}{{item.image}}" class="card-img-top" alt="...">
           </div>
 
         </div>

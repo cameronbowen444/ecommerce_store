@@ -14,10 +14,35 @@ body,
       height: 100%; }
 
 /* Adjustment for mobile devices*/
-@media (max-width: 776px) {
-  .carousel {
-    height: 100%; } }
-
+@media screen and (max-width: 700px) {
+  /* img{
+    margin: 0 auto;
+    height: 100% !important;
+    width: auto !important;
+    background-position: center;
+    background-size: cover !important;
+  } */
+}
+@media screen and (min-width: 1050px) {
+  .img1{
+    margin: 0 auto !important;
+    height: auto !important;
+    width: 100% !important;
+    background-position: center;
+    background-size: cover;
+  }
+}
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #929FBA; }
+
+.img1{
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  background-position: center;
+  background-size: cover !important;
+}
+.img2{
+  height: 200px !important;
+}
